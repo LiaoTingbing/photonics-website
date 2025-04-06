@@ -86,14 +86,20 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Intro',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'FDE', position: 'left'},
+          {to: '/blog', label: 'FDTD', position: 'left'},
+          {to: '/blog', label: 'EME', position: 'left'},
+          {to: '/blog', label: 'RCWA', position: 'left'},
+          {to: '/blog', label: 'BPM', position: 'left'},
+
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -108,23 +114,31 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'X',
-          //       href: 'https://x.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Lumerical',
+                href:'https://www.lumerical.com/',
+              },
+              {
+                label: 'Rsoft',
+                href:'https://www.synopsys.com/zh-cn/optical-solutions/rsoft-photonic-device-tools/rsoft-products.html',
+              }
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'X',
+              //   href: 'https://x.com/docusaurus',
+              // },
+            ],
+          },
           {
             title: 'More',
             items: [
